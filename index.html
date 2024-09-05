@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div class="basket-container">
+        <div class="container">
+            <h1>HOME</h1>
+            <div class="count-box">
+                <p id="count-1">0</p>
+            </div>
+            <div class="buttons">
+                <button id="plus-one-home" onclick="addOneHome()">+1</button>
+                <button id="plus-two-home" onclick="addTwoHome()">+2</button>
+                <button id="plus-three-home" onclick="addThreeHome()">+3</button>
+                <button id="reset-home" onclick="resetCountHome()">Reset</button>
+            </div>
+        </div>
+        <div class="container">
+            <h1>GUEST</h1>
+            <div class="count-box">
+                <p id="count-2">0</p>
+            </div>
+            <div class="buttons">
+                <button id="plus-one-guest" onclick="addOneGuest()">+1</button>
+                <button id="plus-two-guest" onclick="addTwoGuest()">+2</button>
+                <button id="plus-three-guest" onclick="addThreeGuest()">+3</button>
+                <button id="reset-guest" onclick="resetCountGuest()">Reset</button>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="index.js"></script>
+</html>
